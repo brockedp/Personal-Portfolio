@@ -1,0 +1,54 @@
+body{
+    background-color: antiquewhite;
+    /*margin: 40px;*/
+}
+@media only screen and (max-width:600px;){
+    background-color: aqua;
+}
+#navbar{
+     top:0;
+  position:sticky;
+  height:100vh;
+  
+  width:100%;
+  display:flex;
+  justify-content:flex-end;
+               
+ 
+/*  position:sticky;
+  width:100%;  
+  height:100vh;
+    top:0;*/
+   
+            
+            
+            
+        }
+.site-images{
+    width:200px;
+    height:200px;
+    border-width: bold;
+    border-color: blueviolet;
+    border-style: solid;
+}
+.nav-links{
+    margin:10px;
+    color: blueviolet;
+    font-family: fantasy;
+    
+}
+#welcome-section{
+  height:100vh;
+}
+#my-contact-info{
+    color: blueviolet;
+    font-family: fantasy;
+    border-style: groove;
+    border-color: blueviolet;
+}
+
+.projects{
+    color: blueviolet;
+    font-family: fantasy;
+    font-size:14pt;
+}
